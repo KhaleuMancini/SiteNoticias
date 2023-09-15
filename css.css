@@ -16,7 +16,7 @@ header{
     margin:auto;
     padding: 30px 0;
 }
-nav ul li {
+nav ul li, .cad {
     padding: 15px;
     background-color: red;
     line-height: 10px;
@@ -45,6 +45,7 @@ nav ul li {
     background: url(imagens/fundo-caixa.png);
     margin-right: 50px;
     margin-left: 50px;
+    align-items: center;
 }
 .entrevistas h2{
     padding: 5px;
@@ -141,4 +142,14 @@ nav ul li:hover {
 
 .entrevistas ul li:hover{
     color: rgb(155, 155, 155);
+}
+
+input{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+}
+.cad {
+    padding: 5px;
+    width: 50%;
 }
